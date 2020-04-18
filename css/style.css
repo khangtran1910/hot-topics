@@ -1,0 +1,255 @@
+/* Color used: Black #000
+               White #FFF
+               Light Brown #DEB887*/
+
+.wrapper {
+    width: 34rem;
+    height: auto;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin: 35px 30px 30px 10px;
+}
+
+header {
+    background-image: url("../images/header.jpg");
+    background-size: 34rem 250px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+}
+
+.home img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.home h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: #DEB887;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.home figcaption {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top-style: solid;
+    border-top-color: #DEB887; 
+}
+
+.home p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.portfolio img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    border-top-style: solid;
+    border-top-color: #DEB887;
+    padding-top: 20px;
+}
+
+.portfolio h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: #DEB887;
+    padding-left: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.portfolio figcaption {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #DEB887;
+}
+
+footer h1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration-line: none;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.address p {
+    padding-bottom: 0;
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 45rem) {
+    .wrapper {
+        width: 50rem;
+        height: auto;
+    }
+    
+    .logo img {
+        width: 150px;
+        height: auto;
+        margin: 30px 200px 20px 20px;
+    }
+
+    header {
+        background-size: 50rem 250px;
+    }
+
+    header h1 {
+        margin-top: 80px;
+    }
+    
+    .home h2 {
+        font-size: 35px;
+    }
+
+    .home figcaption {
+        font-size: 30px;
+    }
+
+    .home p {
+        font-size: 20px;
+    }
+
+    .portfolio h2 {
+        font-size: 35px;
+    }
+
+    .portfolio figcaption {
+        font-size: 30px;
+    }
+
+    footer a {
+        font-size: 50px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+    .address p {
+        font-size: 15px;
+    }
+    
+    .portfolio-content {
+        display: inline-flex;
+        flex-wrap: wrap;
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (min-width: 80rem) {
+    .wrapper {
+        width: 80rem;
+        height: auto;
+        margin: auto;
+    }
+    
+    .logo img {
+        width: 200px;
+        height: auto;
+        margin: 30px 800px 20px 20px;
+    }
+
+    header {
+        background-size: 80rem 300px;
+    }
+
+    header h1 {
+        margin-top: 30px;
+        margin-right: 20px;
+        text-align: right;
+        font-size: 80px;
+    }
+    
+    .home h2 {
+        font-size: 40px;
+    }
+
+    .home figcaption {
+        font-size: 35px;
+    }
+
+    .home p {
+        font-size: 25px;
+    }
+
+    .portfolio h2 {
+        font-size: 40px;
+    }
+
+    .portfolio figcaption {
+        font-size: 35px;
+    }
+
+    footer a {
+        font-size: 55px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+
+    .address p {
+        font-size: 20px;
+    }
+    
+    .home-content {
+        display: flex;
+        border-bottom-style: solid;
+        border-bottom-color: #DEB887;
+    }
+    
+    .home img {
+        width: 350px;
+        border-style: solid;
+        border-color: #DEB887;
+        border-width: 3px;
+        padding: 0;
+    }
+    
+    .portfolio-content {
+        display: inline-flex;
+        flex-wrap: wrap;
+        padding-left: 70px;
+    }
+}
+
